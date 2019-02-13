@@ -17,7 +17,9 @@ html(lang='en')
                 article(class='content')
                     p(class='title', style='font-size:1em') What is a Political Action Comitee (PAC)
                     p Political arm of an interest group that is legally entitled to raise funds on a voluntary basis from members, stockholders, or employees to contribute funds to candidates or political parties.
-                    p PACs lobby politicians to enact legislation that they are in favor of. PACs can only give a certain amount of money though.
+                    p PACs lobby politicians to enact legislation that they are in favor of. PACs can only give a certain amount of money though. PACs are one of the primary forces in Washington that educate lawmakers as they have the resources to launch highly effective campaigns as well as offering support for a candidate if they support to goals of the PAC. PACs are one of the most important ways people can influence the legistlation passed by the government.
+                    figure(class='image')
+                        img(src='lobbying.jpeg', style='width: 700px')
         div(class='section')
             div(class='container')
                 article(class='content')

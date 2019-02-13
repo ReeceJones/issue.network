@@ -19,6 +19,8 @@ nav(class='navbar', role='navigation', aira-label='main navigation')
                 |="Revolving Door"
             a(class='navbar-item', href='/pacs')
                 |="PACs and Super PACs"
+            a(class='navbar-item', href='/quiz')
+                |="Quiz"
     :javascript
         $("#burger").click(function() {
             $("#burger").toggleClass("is-active");

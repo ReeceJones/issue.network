@@ -27,6 +27,9 @@ html(lang='en')
                             != "<strong>Bureaucratic Agencies: </strong>The bureaucratic agency is often the executive branch of the government where certain agencies regulate over a specific policy that an interest group may want to enact. For example, the EPA would be one agency that would be lobbied by interest groups. It regulates policy that relates to the environment, and so an anti-whaling interest group may lobby the EPA to stop whaling, or add whales to the endangered species list.</strong>"
                     br
                     p These three groups give the triangle a very strong shape that helps groups get policy enacted. Because these groups often have so much power, they can help individuals elected into their positions who hold favorable attitudes towards their beliefs, and for this reason it is often considered suicide to go against major interest groups, unless already backed by already massive interest groups yourself.
+                    figure(class='image')
+                        img(src='triangle-diagram.png', style='width: 500px')
+        
         div(class='section')
             div(class='container')
                 article(class='content')
