@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+    include templates/head
+    body        
+        section(class='hero is-dark is-large', style='background-image:url("door.jpeg"); background-size: cover;')
+            div(class='hero-head')
+                include templates/nav
+            div(class='hero-body')
+            div(class='hero-footer has-text-centered')
+                div(class='container')
+                    article(class='content')
+                        h1(class='title', style='font-size: 3em') Revolving Door
+                        
+                    
+        div(class='section')
+            div(class='container')
+                article(class='content')
+                    p Employment cycle in which individuals who work for governmental agencies that regulate interests eventually end up working for interest groups or businesses with the same policy concern.
+                    figure(class='image')
+                        img(src='revolving-cartoon.jpeg', style='width: 500px')
+                    p(class='title', style='font-size:1em') In the door
+                    p When you go in the door, you enter the government. This is often done through elections or through executive appointments. Once inside the government, people will list to lobbyists (or not), but will take a stance and will fulfill the duties that are given to them from the position they hold. They will continue inside the government until their term is over, or until they are removed from their position, at which point they may likely go out the revoling doors into the private sector. 
+                    p(class='title', style='font-size:1em') Out the door
+                    p Once outside of the door, it is very common to be in the private sector. This can be for multiple reasons, but the two primary reasons are to ve clout to a private organization that may want to get policies passed in favor of the organization or interest group. The second reason is to be a lobbyist for one of these groups, which by having an experienced politican being a lobbyist, may help a specific cause. Once done with the private sector it is possible to re-enter the revolving door, but not mandatory. And You don't need to be in the government first before entering the private sector. You can enter the private sector first, then enter the government through the revolving doors. 
+                    br
+                    p As a result the public and private sectors influence each other. 

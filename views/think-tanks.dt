@@ -9,7 +9,7 @@ html(lang='en')
             div(class='hero-footer has-text-centered')
                 div(class='container')
                     article(class='content')
-                        h1(class='title', style='font-size: 3em') The Iron Triangle
+                        h1(class='title', style='font-size: 3em') Think Tanks
                         
                     
         div(class='section')
