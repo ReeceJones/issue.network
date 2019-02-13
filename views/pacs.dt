@@ -23,3 +23,8 @@ html(lang='en')
                 article(class='content')
                     p(class='title', style='font-size:1em') PACs vs Super PACs
                     p PACs, when compared to Super PACs are often more focused on policy than the actual leaders who get ellected. If a person supports the cause of the PAC, then the PAC will try and get them elected, but that is secondary to convincing the people who are already in control. However, Super PACs put campaigns and candidates first, and revolve around one specific person instead of idea or belief. Super PACs are generally responsible for the Ads you see on TV that brutally attack opposing candidates.
+
+
+
+    include templates/footer
+

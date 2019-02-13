@@ -11,7 +11,34 @@ html(lang='en')
                         p(class='title', style='font-size: 3.5em') The Issue Network
                         p(class='subtitle') What exactly is an issue network?
 
+        section(class='section')
+            div(class='container')
+                article(class='content')
+                    p(class='title') About Issue Networks
+                    p An issue network is a group of many different groups and people in the common goal in getting some piece of legislation or policy passed that they are in favor of. This includes special interest groups, lobbyists, and political action comitees. These are not alone though. There are many different aspects that contribute to an issue network.
+                    p Issue networks can even manifest in the forms of political parties. Just like political parties, issue networks share a common goal, that everyone in the group wants to achieve. 
+                    p However, issue networks have often been criticized for being contradictory to the principles of democracy. But, issue networks often force politicians to address specific issues that they may not otherwise address. Issue networks, because of their large group nature, can give voice to many people who may not have been able to persuade their lawmakers before.
+        section(class='section')
+            div(class='container')
+                article(class='content')
+                    p(class='title') Take the Quiz
+                    p 
+                        != "Do you think that you have what it takes to be an expert in issue networks? Well then, you are in the right place. All you have to do is <a href=\"/quiz\">take the quiz</a>."
+        section(class='section')
+            div(class='container')
+                article(class='content')
+                    p(class='title') More Resources
+                    ul
+                        li
+                            a(href='https://votesmart.org/interest-groups') List of Popular Interest Groups
+                        li
+                            a(href='https://democrats.org/') Democratic Political Party
+                        li
+                            a(href='https://www.gop.com/') Repblican Political Party
+                        li
+                            a(href='https://www.youtube.com/watch?v=Bis-LB-wEVA') What are Super PACs?
 
 
 
 
+    include templates/footer

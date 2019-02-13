@@ -25,3 +25,4 @@ html(lang='en')
 
                     p Some examples of think tanks come from Berkeley, and one is the Heritage Foundation. 
 
+    include templates/footer

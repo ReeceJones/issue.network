@@ -7,6 +7,8 @@ nav(class='navbar', role='navigation', aira-label='main navigation')
 
     div(class='navbar-menu', id='issuebar')
         div(class='navbar-start')
+            a(class='navbar-item', href='/')
+                |="Home"
             a(class='navbar-item', href='/iron-triangle')
                 |="Iron Triangle"
             a(class='navbar-item', href='/linkage-institutions')

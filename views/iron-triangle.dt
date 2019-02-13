@@ -39,6 +39,7 @@ html(lang='en')
 
 
 
+    include templates/footer
 
 
 
