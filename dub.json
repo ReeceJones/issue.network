@@ -1,0 +1,13 @@
+{
+	"description": "issue.network",
+	"license": "proprietary",
+	"authors": [
+		"Reece Jones"
+	],
+	"copyright": "Copyright © 2019, Reece Jones",
+	"name": "issue-network",
+	"dependencies": {
+		"vibe-d": "~>0.8.4"
+	},
+	"versions": ["VibeDefaultMain"]
+}

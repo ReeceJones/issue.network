@@ -1,0 +1,44 @@
+doctype html
+html(lang='en')
+    include templates/head
+    body        
+        section(class='hero is-dark is-large', style='background-image:url("triangle.jpeg"); background-size: cover;')
+            div(class='hero-head')
+                include templates/nav
+            div(class='hero-body')
+            div(class='hero-footer has-text-centered')
+                div(class='container')
+                    article(class='content')
+                        h1(class='title', style='font-size: 3em') The Iron Triangle
+                        
+                    
+        div(class='section')
+            div(class='container')
+                article(class='content')
+                    p The iron triangle is the relationship between various parts of the government and interest groups that serves to get the policies of the interest groups passed.
+
+                    p(class='title', style='font-size: 1em') The three interest groups
+                    ul
+                        li
+                            != "<strong>Interest Groups: </strong>The interest groups represent specific policies and “educate” policy makers about the beliefs of the interest group. The interest groups are often supported by many citizens who are in support of a common goal, often more specialized than that of certain political parties. The primary function of interest groups in the iron triangle is the give the people more of a voice in convincing their representatives to support policies that the people want. "
+                        li
+                            != "<strong>Congress: </strong>Congress enacts the specific policies of many of the interest groups that enables other aspects of the government to interact with the interest groups and pass policies that are often in favor of the interest groups’ beliefs. "
+                        li
+                            != "<strong>Bureaucratic Agencies: </strong>The bureaucratic agency is often the executive branch of the government where certain agencies regulate over a specific policy that an interest group may want to enact. For example, the EPA would be one agency that would be lobbied by interest groups. It regulates policy that relates to the environment, and so an anti-whaling interest group may lobby the EPA to stop whaling, or add whales to the endangered species list.</strong>"
+                    br
+                    p These three groups give the triangle a very strong shape that helps groups get policy enacted. Because these groups often have so much power, they can help individuals elected into their positions who hold favorable attitudes towards their beliefs, and for this reason it is often considered suicide to go against major interest groups, unless already backed by already massive interest groups yourself.
+        div(class='section')
+            div(class='container')
+                article(class='content')
+                    p(class='title', style='font-size: 1em') The effect of the iron triangle on our democracy
+                    p While Iron triangles can make it seem like our democracy only fosters the opinion of those who have enough wealth to lead interest groups, this is not the case. 
+                    p Interest groups are often created by a large group of people who all hold similar ideals about a very specific subject. This is different than political parties, because political parties take a stance on a wide variety of issues leaving lots of leeway to the people who are actually in the party. But, an interest group could simply be a labor union which supports higher wages and better hours for its members. 
+                    p Additionally, interest groups actions are often curbed by the actions of other interest groups who have competing interests. Just because there is a single labor union, doesn’t mean that the wages will constantly increase. There are going to be interest groups in favor of business owners who lobby congress and bureaucratic agencies for policies that are favorable to their business. 
+                    p Also, the Iron Triangle can bring to light many issues that may not be very applicable to many people. If a set of people have disabilities, they can form an interest group and lobby the government to enact policies that are in favor of them. Even if they only make a small minority of the country, they are able to greatly increase their voice in influencing policy makers.
+
+
+
+
+
+
+

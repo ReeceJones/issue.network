@@ -1,0 +1,24 @@
+nav(class='navbar', role='navigation', aira-label='main navigation')
+    div(class='navbar-brand')
+        a(role='button', class='navbar-burger', id='burger', aria-label='menu', aria-expanded='false', data-target='issuebar')
+            span(aria-hidden='true')
+            span(aria-hidden='true')
+            span(aria-hidden='true')
+
+    div(class='navbar-menu', id='issuebar')
+        div(class='navbar-start')
+            a(class='navbar-item', href='/iron-triangle')
+                |="Iron Triangle"
+            a(class='navbar-item', href='/linkage-institutions')
+                |="Linkage Institutions"
+            a(class='navbar-item', href='/think-tanks')
+                |="Think Tanks"
+            a(class='navbar-item', href='/revolving-door')
+                |="Revolving Door"
+            a(class='navbar-item', href='/pacs')
+                |="Think Tanks"
+    :javascript
+        $("#burger").click(function() {
+            $("#burger").toggleClass("is-active");
+            $("#issuebar").toggleClass("is-active");
+        });

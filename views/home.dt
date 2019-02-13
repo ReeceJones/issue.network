@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+    include templates/head
+    body
+        section(class='hero is-dark is-fullheight', style='background-image:url("flag.jpg"); background-size: cover;')
+            div(class='hero-head')
+                include templates/nav
+            div(class='hero-body has-text-centered')
+                div(class='container')
+                    article(class='content')
+                        p(class='title', style='font-size: 3.5em') The Issue Network
+                        p(class='subtitle') What exactly is an issue network?
+
+
+
+
+

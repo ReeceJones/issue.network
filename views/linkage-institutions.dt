@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+    include templates/head
+    body        
+        section(class='hero is-light is-large', style='background-image:url("media.jpeg"); background-size: cover;')
+            div(class='hero-head')
+                include templates/nav
+            div(class='hero-body')
+        div(class='container has-text-centered')
+            article(class='content')
+                h1(class='title', style='font-size: 3em') Linkage Institutions
+
+        section(class='section')
+            div(class='container')
+                article(class='content')
+                    p Linkage institutions connect the people to the government. This helps the people speak directly to lawmakers, or influence the policies that are implemented in the government. Examples would include the media, political parties, and even interest groups. 
+                    p(class='title', style='font-size: 1em') Special Interest Groups
+                    p Special Interest Groups represent specific policies or goals that a group of people may share. Special Interest Groups are used to bring attention to specific issues. They lobby various aspects of the government to achieve and maintain their goal.
+                    p(class='title', style='font-size: 1em') Political Parties
+                    p Political parties, as opposed to special interest groups, represent a very broad range of ideals. Because of this, there is often some difference in the opinions of specific policies, but political parties are held together by a very broad overarching range of ideals. For example, the Republican party is a large group of people who believe in conservative ideals, whereas the Democratic party believes in broadly liberal ideals. There are lots of political parties, but only a select few other than the two major political parties have gained some traction. Even then, these parties are often slight differences when compared to the two big players.
+                    p(class='title', style='font-size: 1em') The Media
+                    p The purpose of the media is to inform citizens on the government. The media reports on what the government is doing. The media is gives citizens information so that they may act accordingly according to their beliefs.
+                    
+
+

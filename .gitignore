@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+issue-network.so
+issue-network.dylib
+issue-network.dll
+issue-network.a
+issue-network.lib
+issue-network-test-*
+*.exe
+*.o
+*.obj
+*.lst
