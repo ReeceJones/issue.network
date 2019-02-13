@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+    include templates/head
+    body        
+        section(class='hero is-dark is-large', style='background-image:url("pac.jpeg"); background-size: cover;')
+            div(class='hero-head')
+                include templates/nav
+            div(class='hero-body')
+            div(class='hero-footer has-text-centered')
+                div(class='container')
+                    article(class='content')
+                        h1(class='title', style='font-size: 3em') PACs and Super PACs
+                        
+                    
+        div(class='section')
+            div(class='container')
+                article(class='content')
+                    p(class='title', style='font-size:1em') What is a Political Action Comitee (PAC)
+                    p Political arm of an interest group that is legally entitled to raise funds on a voluntary basis from members, stockholders, or employees to contribute funds to candidates or political parties.
+                    p PACs lobby politicians to enact legislation that they are in favor of. PACs can only give a certain amount of money though.
+        div(class='section')
+            div(class='container')
+                article(class='content')
+                    p(class='title', style='font-size:1em') PACs vs Super PACs
+                    p PACs, when compared to Super PACs are often more focused on policy than the actual leaders who get ellected. If a person supports the cause of the PAC, then the PAC will try and get them elected, but that is secondary to convincing the people who are already in control. However, Super PACs put campaigns and candidates first, and revolve around one specific person instead of idea or belief. Super PACs are generally responsible for the Ads you see on TV that brutally attack opposing candidates.
