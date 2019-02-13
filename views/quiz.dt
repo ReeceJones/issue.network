@@ -227,7 +227,7 @@ html(lang='en')
         :javascript
             function checkAnswers() {
                 $('#submit').attr("disabled","");
-                var answers = [ 'B', 'D', 'B', 'C', 'C', 'A', 'C', 'A', 'D', 'A', 'B' ];
+                var answers = [ 'B', 'D', 'B', 'C', 'C', 'A', 'C', 'A', 'D', 'A', 'D' ];
                 var correct = 0;
                 for (var i = 0; i < answers.length; i++) {
                     var answer = $('input[name=' + i + ']:checked').val();
