@@ -1,0 +1,246 @@
+doctype html
+html(lang='en')
+    include templates/head
+    body        
+        section(class='hero is-dark is-medium')
+            div(class='hero-head')
+                include templates/nav
+            div(class='hero-body')
+            div(class='hero-footer has-text-centered')
+                div(class='container')
+                    article(class='content')
+                        h1(class='title', style='font-size: 2em') Issue Network Quiz
+                    
+
+        div(class='section')
+            div(class='container')
+                form(action='JavaScript:checkAnswers();')
+                    strong 1. What is an Issue Network
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='0', value='A')
+                                |="A bunch of people who don't like each other."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='0', value='B')
+                                |="People who share a common goal in getting legislation or policy passed."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='0', value='C')
+                                |="I don't know, everthing went wrong."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='0', value='D')
+                                |="People who take issue against something."
+                    strong 2. Which of the following is NOT part of an Issue Network?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='1', value='A')
+                                |="Political Party"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='1', value='B')
+                                |="Bureaucratic Agencies"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='1', value='C')
+                                |="Congress"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='1', value='D')
+                                |="Supreme Court"
+                    strong 3. What's the primary difference between normal PACs and Super PACs
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='2', value='A')
+                                |="Super PACs have a lot more money than PACs, and accordingly have more power."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='2', value='B')
+                                |="Super PACs support cadidates rather than policy."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='2', value='C')
+                                |="Super PACs consist of a higher concentration of ex-public sector people, which in turn gives them more influence."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='2', value='D')
+                                |="Super PACs are the same, but they just sound cooler."
+                    strong 4. A musician learns that his music is being largely pirated. In terms of issue networks, which is the most likely thing he will do?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='3', value='A')
+                                |="He will contact his lawyer, and send cease and desist letters to filesharing services."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='3', value='B')
+                                |="He will kick down his neighbors door, and give him a 4 hour presentation on why pirating is bad."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='3', value='C')
+                                |="He will join an interest group that represents musicians."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='3', value='D')
+                                |="He will complain on the internet."
+                    strong 5. A person is elected to Congress, but once their term is up they go to work for an oil company as a lobbyist. What is this known as?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='4', value='A')
+                                |="Iron Triangle"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='4', value='B')
+                                |="Lateral Escalator"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='4', value='C')
+                                |="Revolving Door"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='4', value='D')
+                                |="Shilling"
+                    strong 6. At the local college there is a group of conservative people that are researching political and economic issues. This is most likely a:
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='5', value='A')
+                                |="Think Tank"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='5', value='B')
+                                |="group of students."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='5', value='C')
+                                |="PAC"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='5', value='D')
+                                |="Political Party"
+                    strong 7. Which of the following is not a linkage institution?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='6', value='A')
+                                |="Political Party"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='6', value='B')
+                                |="TV News"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='6', value='C')
+                                |="US Dept. of Agriculture"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='6', value='D')
+                                |="Special Interest Group"
+                    strong 8. Is a labor union an interest group?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='7', value='A')
+                                |="Yes"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='7', value='B')
+                                |="No"
+                    strong 9. What are the pros and cons of the Iron Triangle?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='8', value='A')
+                                |="The triangle is a naturally strong shape, that's a dumb question."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='8', value='B')
+                                |="Pros: Politicians can be educated, and persuaded. Cons: Complete Corruption"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='8', value='C')
+                                |="Pros: Politicians can lead the charge on issues that may not be represented. Cons: People's voices aren't heard."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='8', value='D')
+                                |="Pros: Politicians can be educated, and persuaded. Cons: Can seem corrupt, because of donations from PACs."
+                    strong 10. PETA wants stricter animal abuse laws. What do they do?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='9', value='A')
+                                |="They can lobby Congressional members for their support through education campaigns and donations."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='9', value='B')
+                                |="PETA euthanizes domestic animals, they don't care about abuse."
+                            br
+                            label(class='radio')
+                                input(type='radio', name='9', value='C')
+                                |="PETA wastes all of its money on advertisement, they wouldn't be able to do anything."
+                    strong 11. You are taking this quiz, and you think "wow this was really good." Does it deserve win?
+                    br
+                    div(class='field')
+                        div(class='control')
+                            label(class='radio')
+                                input(type='radio', name='10', value='A')
+                                |="yes"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='10', value='B')
+                                strong
+                                    |="double yes"
+                            br
+                            label(class='radio')
+                                input(type='radio', name='10', value='C')
+                                |="no :("
+
+
+
+
+
+
+                    div(class='field')
+                        div(class='control')
+                            button(class='button is-link', id='submit') Submit
+
+
+        div(style='visibility:hidden', id='result-container')
+            section(class='section')
+                div(class='container')
+                    strong(class='title notification is-primary', style='font-size: 2em', id="result")
+        :javascript
+            function checkAnswers() {
+                $('#submit').attr("disabled","");
+                var answers = [ 'B', 'D', 'B', 'C', 'C', 'A', 'C', 'A', 'D', 'A', 'B' ];
+                var correct = 0;
+                for (var i = 0; i < answers.length; i++) {
+                    var answer = $('input[name=' + i + ']:checked').val();
+                    if (answer == answers[i])
+                    {
+                        console.log("correct answer: " + i);
+                        correct++;
+                    }
+                }
+                $('#result-container').css('visibility', 'visible')
+                $('#result').html(correct + ' out of 10 correct');
+            }
+
+
+    include templates/footer
+

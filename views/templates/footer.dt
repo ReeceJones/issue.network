@@ -1,3 +1,5 @@
 footer(class='footer')
     div(class='content has-text-centered')
-        p The Issue Network AP Gov project by Reece Jones and Mckenna Gregory.
+        p 
+            != "<strong>The Issue Network</strong> AP Government project by Reece Jones and Mckenna Gregory."
+
