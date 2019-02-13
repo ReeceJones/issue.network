@@ -8,6 +8,7 @@ shared static this()
 	router.get("/", staticTemplate!"home.dt");
 	router.get("/iron-triangle", staticTemplate!"iron-triangle.dt");
 	router.get("/linkage-institutions", staticTemplate!"linkage-institutions.dt");
+	router.get("/think-tanks", staticTemplate!"think-tanks.dt");
 
 	router.get("*", serveStaticFiles("public/"));
 

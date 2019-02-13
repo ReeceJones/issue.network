@@ -16,7 +16,7 @@ nav(class='navbar', role='navigation', aira-label='main navigation')
             a(class='navbar-item', href='/revolving-door')
                 |="Revolving Door"
             a(class='navbar-item', href='/pacs')
-                |="Think Tanks"
+                |="PACs and Super PACs"
     :javascript
         $("#burger").click(function() {
             $("#burger").toggleClass("is-active");
